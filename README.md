@@ -20,9 +20,7 @@ The following software management tools are integrated with CoRR.
 <a href="https://github.com/usnistgov/corr-reprozip">Reprozip</a>
 </strong></sup></p>
 
-<p align="center"><strong>
-The python project - project-corr-python
-</strong></p>
+<p align="center">The python project: project-corr-python</p>
 <p align="justify">
 It is a simple random number drawer program. It dumps the numbers in a file example2.dat. To execute it
 only numpy is required to be installed. It can be run with two different parameters files: default.param
