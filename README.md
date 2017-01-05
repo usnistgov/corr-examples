@@ -5,16 +5,14 @@
          class="inline">
 </p>
 <p align="center"><sup><strong>
-<a href="http://corr.readthedocs.io/en/latest/rst/README.html">CoRR Docs</a>.
+Software Management Tools example projects.
 </strong></sup></p>
 
 <p align="center"><sup><strong>
-Software Management Tools example projects.
+<a href="http://corr.readthedocs.io/en/latest/rst/README.html">CoRR Docs</a>.
 </strong></sup></p>
-<p align="center"><sup>
-The following software management tools are integrated with CoRR.
-</sup></p>
 
+<p align="center">The following software management tools are integrated with CoRR.</p>
 <p align="center"><sup><strong>
 <a href="https://github.com/usnistgov/corr-sumatra">Sumatra</a>
 <a href="https://github.com/usnistgov/corr-reprozip">Reprozip</a>
