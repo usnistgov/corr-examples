@@ -9,12 +9,15 @@ def get_version(): # version numbers are deliberately different, for testing pur
 def run():
     parameter_file = sys.argv[1]
     parameters = {}
-    execfile(parameter_file, parameters) # this way of reading parameters
-                                         # is not necessarily recommended
+    try: # python 3.x
+        exec(open(parameter_file).read(), parameters)
+    except: # python 2.x
+        execfile(parameter_file, parameters) # this way of reading parameters
+                                             # is not necessarily recommended
     numpy.random.seed(parameters["seed"])
     distr = getattr(numpy.random, parameters["distr"])
     data = distr(size=parameters["n"])
-        
+
     numpy.savetxt("Data/example2.dat", data)
 
 
